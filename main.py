@@ -5,7 +5,7 @@ from tkinter import ttk
 from ttkthemes import ThemedStyle
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = open('API_KEY', 'r').read()
+API_KEY = open('API_KEY.txt', 'r').read()
 
 def kelvin_to_celsius_fahrenheit(kelvin):
     celsius = kelvin - 273.15
